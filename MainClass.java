@@ -2,6 +2,7 @@ public class MainClass {
    public static void main(String[] args) {
       int nDisks = 3;
       doTowers(nDisks, 'A', 'B', 'C');
+      Garbage.doNothing();
    }
    public static void doTowers(int topN, char from, char inter, char to) {
       if (topN == 1) {
